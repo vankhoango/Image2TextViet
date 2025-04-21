@@ -5,7 +5,7 @@ Bạn cần làm tài liệu hoặc thuyết trình nhưng không thể copy vă
 màn hình, văn bản sẽ tự động được trích xuất để bạn có thể dễ dàng copy.
 
 ## Tính năng
-- Chụp bất kỳ vùng nào trên màn hình
+- Chọn bất kỳ vùng nào trên màn hình
 - Trích xuất văn bản từ ảnh
 - Được phát triển với .NET và Windows Forms
 
