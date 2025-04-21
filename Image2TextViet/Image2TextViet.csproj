@@ -10,11 +10,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="eng.traineddata" />
     <None Remove="text2imageviet.ico" />
+    <None Remove="vie.traineddata" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="eng.traineddata">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="text2imageviet.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="vie.traineddata">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -33,5 +41,12 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tesseract" Version="4.1.1" />
+    <PackageReference Include="Tesseract.Drawing" Version="4.1.1" />
+  </ItemGroup>
+
+
 
 </Project>

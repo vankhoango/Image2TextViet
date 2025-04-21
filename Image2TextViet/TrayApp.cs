@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+
 
 namespace Image2Text
 {
@@ -67,13 +69,11 @@ namespace Image2Text
             if (snipper.Snip() == DialogResult.OK)
             {
                 var img = snipper.CapturedImage;
-                string text = OCRHelper.ExtractTextFromImage(img);
-
-                TextDialog dialog = new TextDialog();
-                dialog.setContent(text);
-
-                dialog.ShowDialog();
-            }
+                if (img != null)
+                {                    
+                    TesseractImage2Text.ExtractTextFromImage(img);
+                }                
+            } 
         }
 
         protected override void OnShown(EventArgs e)
