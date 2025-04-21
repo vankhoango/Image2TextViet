@@ -15,5 +15,5 @@ màn hình, văn bản sẽ tự động được trích xuất để bạn có 
 3. Sử dụng phím tắt (mặc định là Ctrl+Shift+S) hoặc giao diện người dùng để bắt đầu chụp màn hình
 
 ## Giấy phép
-Tác giả: Khoa Ngo
-Giấy phép MIT
+* Tác giả: Khoa Ngo
+* Giấy phép MIT
