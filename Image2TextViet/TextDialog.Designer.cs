@@ -36,9 +36,9 @@
             // buttonCopyClose
             // 
             this.buttonCopyClose.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.buttonCopyClose.Location = new System.Drawing.Point(0, 471);
+            this.buttonCopyClose.Location = new System.Drawing.Point(0, 462);
             this.buttonCopyClose.Name = "buttonCopyClose";
-            this.buttonCopyClose.Size = new System.Drawing.Size(860, 23);
+            this.buttonCopyClose.Size = new System.Drawing.Size(860, 32);
             this.buttonCopyClose.TabIndex = 1;
             this.buttonCopyClose.Text = "Copy và Đóng";
             this.buttonCopyClose.UseVisualStyleBackColor = true;
@@ -52,7 +52,7 @@
             this.textBox.Multiline = true;
             this.textBox.Name = "textBox";
             this.textBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox.Size = new System.Drawing.Size(860, 471);
+            this.textBox.Size = new System.Drawing.Size(860, 462);
             this.textBox.TabIndex = 2;
             // 
             // TextDialog
