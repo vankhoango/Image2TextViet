@@ -10,7 +10,7 @@ using Tesseract;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Diagnostics;
 
-namespace Image2Text
+namespace Image2TextViet
 {
     internal class TesseractImage2Text
     {

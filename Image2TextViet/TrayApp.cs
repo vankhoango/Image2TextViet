@@ -1,4 +1,4 @@
-﻿using Image2TextViet;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 
 
-namespace Image2Text
+namespace Image2TextViet
 {
     public class TrayApp : Form
     {

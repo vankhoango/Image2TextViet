@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Image2Text
+namespace Image2TextViet
 {
     public class GlobalHotkey
     {

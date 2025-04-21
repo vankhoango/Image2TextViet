@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Image2Text
+namespace Image2TextViet
 {
     public partial class HotkeyDialog : Form
     {

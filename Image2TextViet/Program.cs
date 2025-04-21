@@ -1,4 +1,4 @@
-namespace Image2Text
+namespace Image2TextViet
 {
     internal static class Program
     {

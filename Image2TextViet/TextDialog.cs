@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Image2Text
+namespace Image2TextViet
 {
     public partial class TextDialog : Form
     {
