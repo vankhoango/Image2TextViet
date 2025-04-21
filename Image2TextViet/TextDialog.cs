@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿/******************************************************************************
+ * File:        TextDialog.cs
+ * Project:     Image2TextViet
+ * Author:      Khoa Ngo
+ * Created:     2025-04-21
+ *
+ * License:     MIT
+ ******************************************************************************/
 
 namespace Image2TextViet
 {

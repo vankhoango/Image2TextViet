@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
+﻿/******************************************************************************
+ * File:        TesseractImage2Text.cs
+ * Project:     Image2TextViet
+ * Author:      Khoa Ngo
+ * Created:     2025-04-21
+ *
+ * License:     MIT
+ ******************************************************************************/
 using Tesseract;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using System.Diagnostics;
 
 namespace Image2TextViet
 {

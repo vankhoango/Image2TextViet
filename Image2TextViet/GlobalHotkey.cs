@@ -1,4 +1,13 @@
-﻿using System.Runtime.InteropServices;
+﻿/******************************************************************************
+ * File:        GlobalHotkey.cs
+ * Project:     Image2TextViet
+ * Author:      Khoa Ngo
+ * Created:     2025-04-21
+ *
+ * License:     MIT
+ ******************************************************************************/
+
+using System.Runtime.InteropServices;
 
 namespace Image2TextViet
 {
