@@ -5,7 +5,10 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Image2TextViet", "Image2TextViet\Image2TextViet.csproj", "{1A31121E-B2AC-4B9B-925B-E49F7C129931}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Image2TextVietSetup", "Image2TextVietSetup\Image2TextVietSetup.wixproj", "{2FED85B7-B2D9-4DE8-A355-97A72D636117}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89F5C5DA-713E-46A0-BBA2-D663DACE025E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +26,6 @@ Global
 		{1A31121E-B2AC-4B9B-925B-E49F7C129931}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A31121E-B2AC-4B9B-925B-E49F7C129931}.Release|x86.ActiveCfg = Release|Any CPU
 		{1A31121E-B2AC-4B9B-925B-E49F7C129931}.Release|x86.Build.0 = Release|Any CPU
-		{2FED85B7-B2D9-4DE8-A355-97A72D636117}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{2FED85B7-B2D9-4DE8-A355-97A72D636117}.Debug|Any CPU.Build.0 = Debug|x86
-		{2FED85B7-B2D9-4DE8-A355-97A72D636117}.Debug|x86.ActiveCfg = Debug|x86
-		{2FED85B7-B2D9-4DE8-A355-97A72D636117}.Debug|x86.Build.0 = Debug|x86
-		{2FED85B7-B2D9-4DE8-A355-97A72D636117}.Release|Any CPU.ActiveCfg = Release|x86
-		{2FED85B7-B2D9-4DE8-A355-97A72D636117}.Release|Any CPU.Build.0 = Release|x86
-		{2FED85B7-B2D9-4DE8-A355-97A72D636117}.Release|x86.ActiveCfg = Release|x86
-		{2FED85B7-B2D9-4DE8-A355-97A72D636117}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

