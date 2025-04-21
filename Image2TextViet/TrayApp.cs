@@ -31,7 +31,14 @@ namespace Image2TextViet
             var setHotkeyItem = new ToolStripMenuItem($"Đổi phím tắt ({HotkeyHelper.GetHotkeyText()})");
             setHotkeyItem.Click += (s, e) => ShowHotkeyDialog();
 
-            var exitItem = new ToolStripMenuItem("Thoát Image2Text Viet");
+            var aboutItem = new ToolStripMenuItem("Về Image2Text Viet");
+            aboutItem.Click += (s, e) =>
+            {
+                var aboutDialog = new AboutDialog();
+                aboutDialog.ShowDialog();
+            };
+
+            var exitItem = new ToolStripMenuItem("Thoát");
             exitItem.Click += (s, e) =>
             {
                 hotkey?.Unregister();
@@ -39,6 +46,7 @@ namespace Image2TextViet
             };
 
             contextMenu.Items.Add(setHotkeyItem);
+            contextMenu.Items.Add(aboutItem);
             contextMenu.Items.Add(exitItem);
 
             trayIcon.ContextMenuStrip = contextMenu;

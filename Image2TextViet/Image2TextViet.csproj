@@ -7,16 +7,23 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>text2imageviet.ico</ApplicationIcon>
+    <Description>Lấy văn bản tiếng Việt từ hình ảnh</Description>
+    <Copyright>Khoa Ngo</Copyright>
+    <Title>Image2Text Viet</Title>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="eng.traineddata" />
+    <None Remove="icon256.png" />
     <None Remove="text2imageviet.ico" />
     <None Remove="vie.traineddata" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="eng.traineddata">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon256.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="text2imageviet.ico">
@@ -28,6 +35,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
@@ -45,6 +57,13 @@
   <ItemGroup>
     <PackageReference Include="Tesseract" Version="4.1.1" />
     <PackageReference Include="Tesseract.Drawing" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 
